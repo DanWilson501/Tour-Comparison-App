@@ -1,0 +1,21 @@
+.tour {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    transition: background-color 0.3s;
+  }
+  
+  .tour.selected {
+    background-color: #f0f0f0;
+  }
+  
+  .tour img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .tour button {
+    display: block;
+    margin-top: 10px;
+  }
+  

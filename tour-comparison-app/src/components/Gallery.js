@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Tour from './Tour';
+import './Gallery.css';
 
 function Gallery() {
   const [tours, setTours] = useState([]);

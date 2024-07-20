@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Tour.css';
 
 function Tour({ tour, isSelected, onSelect }) {
   const [showMore, setShowMore] = useState(false);
